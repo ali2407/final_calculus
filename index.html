@@ -768,7 +768,7 @@
                         totalSize += size / price;
                         
                         var avgPrice = totalSize > 0 ? totalInvested / totalSize : 0;
-                        orderRows[i].querySelector('.avg-price').textContent = '$' + avgPrice.toFixed(2);
+                        orderRows[i].querySelector('.avg-price').textContent = '$' + avgPrice.toFixed(4);
                     }
                 }
             }
